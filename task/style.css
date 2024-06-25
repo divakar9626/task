@@ -1,0 +1,880 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+
+}
+
+body{
+    
+    width: 100%;
+    
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+.head_left_txt{
+    height: 10vh;
+    width: 20%;
+
+    
+    
+    
+}
+.logo{
+    height: 10vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.head_right_icon{
+    height: 10vh;
+    width: 20%;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+    
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    height: 80vh ;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), 
+    radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+}
+
+.main_left{
+
+    height: 80vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_right{
+    height: 80vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex_txt_1{
+    font-family: "Dancing Script", cursive;
+    color: black;
+    font-size: 40px;
+
+}
+
+.ex_txt_2{
+    font-size: 60px;
+    color: #035f66;
+}
+
+.shop_btn{
+    width: 150px;
+    height: 40px;
+    font-family: "Dancing Script", cursive;
+    background-color: #035f66;
+    color: aliceblue;
+    font-size: larger; 
+    border: 0;  
+    cursor: pointer;
+    
+}
+
+#shopping_category{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.category_txt{
+    height: 30vh;
+    width: 100%;
+}
+
+.category_txt_1{
+
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+
+}
+
+.category_txt_2{
+    color: #288990;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+
+
+.collection{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70vh;
+    
+}
+
+.ships{
+    text-align: center;
+    font-family: "Abhaya Libre", serif;
+    color: #288990; 
+    object-fit: cover;
+    font-size: 15px;font-weight: bold;
+     
+}
+
+.ships > h3{
+    font-family: "Dancing Script", cursive;
+}    
+    
+    
+.cups{
+    text-align: center;
+    font-family: "Abhaya Libre", serif;
+    color: #288990;
+    object-fit: cover;
+    font-size: 15px;font-weight: bold;
+}
+.cups > h3{
+    font-family: "Dancing Script", cursive;
+}
+
+.books{
+    text-align: center;
+    font-family: "Abhaya Libre", serif;
+    color: #288990;
+    font-size: 15px;font-weight: bold;
+}
+.books > h3{
+    font-family: "Dancing Script", cursive;
+}
+
+
+.watch{
+    text-align: center;
+    font-family: "Abhaya Libre", serif;
+    color: #288990;
+    font-size: 15px;font-weight: bold;
+}
+.watch > h3{
+    font-family: "Dancing Script", cursive;
+}
+#sales_sec{
+    height: 160vh;
+    width: 100%;
+    
+    
+}
+.sales_sec_1{
+   height: 80vh;
+   width: 100%;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.sales_sec_card_1{
+    height: 80vh;
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    flex-direction: column;
+   
+}
+.card1{
+    height: 400px;
+    width: 300px;
+    background-color: aqua;
+    background-image: url(./asset/crad1.jpg);
+    background-size: cover;
+
+}
+
+.sales_sec_card_1 > h3{
+    font-family: "Dancing Script", cursive;
+}
+
+.sales_sec_card_1 > h1{
+    font-size: 25px;
+    font-family: "Abhaya Libre", serif;
+}
+
+
+.sales_sec_card_2{
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.sales_sec_card_2 > h3{
+    font-family: "Dancing Script", cursive;
+}
+
+.sales_sec_card_2 > h1{
+    font-size: 25px;
+    font-family: "Abhaya Libre", serif;
+}
+
+.card2{
+    height: 400px;
+    width: 300px;
+    background-color: aqua;
+    background-image: url(./asset/card2.jpg);
+    background-size: cover;
+
+}
+
+
+
+
+
+.sales_sec_2{
+    height: 80vh;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .sales_sec_card_3{
+    height: 80vh;
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    flex-direction: column;
+
+}
+.sales_sec_card_3 > h3{
+    font-family: "Dancing Script", cursive;
+}
+
+.sales_sec_card_3 > h1{
+    font-size: 25px;
+    font-family: "Abhaya Libre", serif;
+}
+
+
+.card3{
+    height: 400px;
+    width: 290px;
+    background-color: aqua;
+    background-image: url(./asset/card3.jpg) ;
+    background-size:contain;
+    
+
+}
+.sales_sec_card_4{
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    
+    flex-direction: column;
+    padding-left: 50px;
+   
+    
+}
+
+.card4{
+    height: 300px;
+    border-left: black 2px dashed;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    padding-left: 100px;
+    
+}
+
+.card4 > h1{
+    font-family: "Dancing Script", cursive;
+}
+
+.card4 > h2{
+    font-size: 50px;
+    font-family: "Abhaya Libre", serif;
+    color: #035f66;
+}
+
+#box{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.box1{
+    height: 200px;
+    width: 600px;
+    background-color: #ffebd7;
+    background-image: url(./asset/pocketclock1.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.box1 > h2{
+    font-family: "Dancing Script", cursive;
+}
+
+.box1 > h1{
+    font-size: 40px;
+    font-family: "Abhaya Libre", serif;
+   
+}
+
+.box2{
+    height: 200px;
+    width: 600px;
+    background-color: #fec9c9;
+    background-image: url(./asset/bamboocraft.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   padding-left: 30px;
+  
+
+}
+
+.box2 > h2{
+    font-family: "Dancing Script", cursive;
+}
+
+.box2 > h1{
+    font-size: 40px;
+    font-family: "Abhaya Libre", serif;
+   
+    
+}
+#top_picks{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20vh;
+    
+   
+}
+.top_pick_collections{
+
+    height: 100vh;
+    width: 80%;
+
+     display: grid;
+        
+    grid-template-rows: 50vh 50vh;
+    grid-template-columns:25% 25% 25% 25%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), 
+    radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    
+      
+}
+
+.top_picks_tittle{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.top_picks_tittle > h1{
+    font-family: "Dancing Script", cursive;
+
+}
+
+.top_picks_tittle > h2{
+   
+    font-size: 40px;
+    font-family: "Abhaya Libre", serif;
+    color: #035f66;
+
+}
+
+
+.top_pick_card1{
+    height: auto;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.top_pick_card1 > h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+}
+
+.top_pick_card2{
+    height: auto;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.top_pick_card2 > h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+}
+
+
+.top_pick_card3{
+    height: auto;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.top_pick_card3 > h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+}
+
+.top_pick_card4{
+    height: auto;
+    width: 100%;
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.top_pick_card4 > h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+}
+
+.top_pick_card5{
+    height: auto;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.top_pick_card5 > h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+}
+
+.top_pick_card6{
+    height: auto;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.top_pick_card6 > h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+}
+
+.top_pick_card7{
+    height: auto;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid whitesmoke;
+    
+}
+
+.top_pick_card7 > h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+}
+
+
+.top_pick_card7:hover{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+
+    border-radius: 40px;
+   
+
+}
+
+.top_pick_card1:hover{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+
+    border-radius: 40px;
+
+}
+.top_pick_card2:hover{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+
+    border-radius: 40px;
+
+}
+.top_pick_card3:hover{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+
+    border-radius: 40px;
+
+}
+
+.top_pick_card4:hover{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+
+    border-radius: 40px;
+
+}
+
+.top_pick_card5:hover{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+
+    border-radius: 40px;
+
+}
+
+.top_pick_card6:hover{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+
+    border-radius: 40px;
+
+}
+
+.top_pick_card8{
+    height: auto;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    
+}
+
+.top_pick_card8:hover{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+
+    border-radius: 40px;
+}
+
+.top_pick_card8 > h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+
+}
+
+#shop_by_brand{
+height: 80vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.brands{
+    
+    height: 50vh;
+    width: 90%;
+    background-color:#fec9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brands > h2{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.brands > h1{
+    
+    font-size: 40px;
+    font-family: "Abhaya Libre", serif;
+    color: #035f66;
+    text-align: center;
+
+}
+.brands_logo{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content:  space-around ;
+    align-items: center;
+   
+}
+
+#news{
+    height: 80vh;
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+#news > h1{
+    font-size: 40px;
+    font-family: "Abhaya Libre", serif;
+    color: #035f66;
+    text-align: center;
+    font-weight: lighter;
+    
+}
+#news > h2{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+
+   
+
+}
+
+.news_card{
+    width: 70vw;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+   
+    
+
+}
+
+.cd{
+    height: 500px;
+    width: 20vw ;
+    
+    display: flex;
+    
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.cd > h1{
+    font-size: 25px;
+    font-family: "Abhaya Libre", serif;
+    color: #035f66;
+}
+
+.cd > h3{
+
+    font-family: "Dancing Script", cursive;
+}
+
+#scroll_img{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 100px;
+
+}
+
+footer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100PX;
+    background-color: #ffebd7;
+    
+
+}
+
+.footer_logo{
+    height:20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_content{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+}
+
+.footer_content_left{
+    height: 25vh;
+    width: 30%;
+    color: #035f66;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    
+}
+
+.footer_content_left li{
+    list-style: none;
+    padding-top: 10px;
+    font-family: "Abhaya Libre", serif;
+    
+}
+
+.footer_content_center{
+    height: 25vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+}
+
+
+
+
+
+.footer_content_right{
+    height: 25vh;
+    width: 30%;
+    color: #035f66;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    align-items: end;
+    
+}
+
+.footer_content_right li{
+    list-style: none;
+    padding-top: 10px;
+    font-family: "Abhaya Libre", serif;
+}
